@@ -21,10 +21,10 @@
         const totalFontSize = function() {
             const pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;  
             
-            if (pageWidth > 1920) {
+            if (pageWidth > 1680) {
                 document.documentElement.style.fontSize = '12px';
             }else if (pageWidth > 992) {
-                let value = (pageWidth * 10 / 1920).toFixed(2);
+                let value = (pageWidth * 10 / 1680).toFixed(2);
                 document.documentElement.style.fontSize = value + 'px';
             } else {
                 document.documentElement.style.fontSize = '10px';
@@ -168,7 +168,7 @@
   </div>
 </section>
 
-    <section class="contact">
+    <section class="contact" id="contact-form">
   <div class="contact__wrapper">
     <div class="contact__col">
       <div class="contact__num num">
