@@ -66,7 +66,6 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
-  border-radius: 3px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -193,6 +192,10 @@ ul li::before {
   background-color: var(--orange);
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+}
+
+[data-widget-id=hBPM85vaSxdYmwO9] {
+  display: none !important;
 }
 
 .header {
@@ -339,7 +342,6 @@ ul li::before {
       flex-shrink: 0;
   border-radius: 40px;
   overflow: hidden;
-  border: 2px solid var(--white);
 }
 
 .num {
@@ -606,7 +608,7 @@ ul li::before {
 
 @media (width > 992px) {
   [class*=__container] {
-    max-width: 118rem;
+    max-width: 119rem;
     margin: 0 auto;
   }
 
@@ -865,6 +867,17 @@ ul li::before {
   .button {
     width: 100%;
     max-width: 33rem;
+  }
+
+  .footer_innerWrp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer__logo {
+    margin: 0 auto;
   }
 
   .section__color {

@@ -21,10 +21,10 @@
         const totalFontSize = function() {
             const pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;  
             
-            if (pageWidth > 1440) {
+            if (pageWidth > 1680) {
                 document.documentElement.style.fontSize = '12px';
             }else if (pageWidth > 992) {
-                let value = (pageWidth * 10 / 1440).toFixed(2);
+                let value = (pageWidth * 10 / 1680).toFixed(2);
                 document.documentElement.style.fontSize = value + 'px';
             } else {
                 document.documentElement.style.fontSize = '10px';
@@ -37,9 +37,9 @@
 		
     </script>
     	
-	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240720204107"> 
+	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240721170607"> 
 	
-	<link rel="stylesheet" href="css/style.min.css?_v=20240720204107">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240721170607">
 
 
 
@@ -51,9 +51,9 @@
 
   <header class="header">
   <div class="header__container">
-    <div class="header__logo">
+    <!-- <div class="header__logo">
       <img src="img/logo.svg" alt="image" loading="lazy" class="img-full">
-    </div>
+    </div> -->
   </div>
 </header>
 
@@ -96,11 +96,8 @@
             </ul>
           </div>
         </div>
-        <div class="section__video video">
-          <img src="img/video-img.png" alt="image" loading="lazy" class="img-full" />
-          <div class="video__play">
-            <img src="img/play-btn.svg" alt="image" loading="lazy" class="img-full" />
-          </div>
+        <div class="section__video">
+          <div class="getreview-widget" data-widget-id="weGCwyrAmvfdOoKE"></div>
         </div>
       </div>
     </div>
@@ -128,10 +125,7 @@
           </div>
         </div>
         <div class="section__video video">
-          <img src="img/video-img.png" alt="image" loading="lazy" class="img-full" />
-          <div class="video__play">
-            <img src="img/play-btn.svg" alt="image" loading="lazy" class="img-full" />
-          </div>
+          <div class="getreview-widget" data-widget-id="PCCRUH7Afzdw0rOo"></div>
         </div>
       </div>
     </div>
@@ -158,10 +152,7 @@
           </div>
         </div>
         <div class="section__video video">
-          <img src="img/video-img.png" alt="image" loading="lazy" class="img-full" />
-          <div class="video__play">
-            <img src="img/play-btn.svg" alt="image" loading="lazy" class="img-full" />
-          </div>
+          <div class="getreview-widget" data-widget-id="hr8a25v0X9974PO5"></div>
         </div>
       </div>
     </div>
@@ -2830,9 +2821,8 @@
   </div>
 </footer>
 
-  <script src="js/plugins/plugins.min.js?_v=20240720204107"></script>
-
-<script src="js/app.min.js?_v=20240720204107"></script>
+  <script src="https://app.getreview.io/tags/z3MqX1RFUwIFNETO/sdk.js?_v=20240721170607" async></script>
+  
  
 </body>
 
