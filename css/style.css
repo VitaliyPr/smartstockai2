@@ -9,10 +9,10 @@
 }
 
 @font-face {
-  font-family: Catamaran;
+  font-family: Jura;
   font-display: swap;
-  src: url("../fonts/Catamaran-Regular.woff2") format("woff2"), url("../fonts/Catamaran-Regular.woff") format("woff");
-  font-weight: 400;
+  src: url("../fonts/Jura-Bold.woff2") format("woff2"), url("../fonts/Jura-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -25,17 +25,33 @@
 }
 
 @font-face {
-  font-family: Jura;
+  font-family: Montserrat;
   font-display: swap;
-  src: url("../fonts/Jura-Bold.woff2") format("woff2"), url("../fonts/Jura-Bold.woff") format("woff");
-  font-weight: 700;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Jura;
+  font-family: Montserrat;
   font-display: swap;
-  src: url("../fonts/Jura-Regular.woff2") format("woff2"), url("../fonts/Jura-Regular.woff") format("woff");
+  src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -50,7 +66,7 @@ html {
 }
 
 body {
-  font-family: Jura;
+  font-family: Montserrat, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   min-height: 100vh;
@@ -105,27 +121,32 @@ input[type=search] {
      object-position: center;
 }
 
-h1 {
-  font-family: Furore;
-  font-size: 3.2rem;
-  line-height: 1.125;
+.eff {
+  font-family: Roboto, sans-serif;
   font-weight: 400;
+}
+
+h1 {
+  font-family: Furore, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.125;
   color: var(--dark);
 }
 
 h2 {
   font-family: Furore;
+  font-weight: 400;
   font-size: 2.6rem;
   line-height: 1.1538461538;
-  font-weight: 400;
   color: var(--dark);
 }
 
 ul li {
   position: relative;
-  font-family: Catamaran;
   font-size: 1.6rem;
   line-height: 1.375;
+  font-weight: 700;
   padding-left: 1.2rem;
 }
 
@@ -272,16 +293,13 @@ ul li::before {
 .hero__subtitle {
   font-size: 1.8rem;
   line-height: 1.2;
+  font-weight: 700;
   text-align: center;
   color: var(--white);
 }
 
 .hero__subtitle:not(:last-child) {
   margin-bottom: 1rem;
-}
-
-.hero__subtitle span {
-  font-weight: 700;
 }
 
 .hero__btn {
@@ -345,6 +363,7 @@ ul li::before {
 }
 
 .num {
+  font-family: Jura;
   font-size: 1.6rem;
   line-height: 1.1875;
   font-weight: 700;
@@ -553,7 +572,7 @@ ul li::before {
 
 .privacy-checkbox {
   font-size: 1.2rem !important;
-  line-height: 0.7304347826 !important;
+  line-height: 1.4 !important;
   color: #fff !important;
 }
 
@@ -753,7 +772,7 @@ ul li::before {
   }
 
   .section-list__item {
-    max-width: 36rem;
+    max-width: 38.7rem;
   }
 
   .section-list--big .section-list__item {
@@ -904,7 +923,7 @@ ul li::before {
   .section__video {
     width: 100%;
     max-width: 30rem;
-    height: auto;
+    height: 45.4rem;
     margin: 0 auto;
   }
 
